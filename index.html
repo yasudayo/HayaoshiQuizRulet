@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            html,body {
+                height: 100%;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+            }
+            scene {
+                width: 198vmin;
+                height: 98vmin;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <title>クイズルーレット</title>
+        <link rel="stylesheet" href="style.css">
+        <img src="hazure.png" alt="" id="hazu">
+        <img src="hande.png" alt="" id="handi">
+        <img src="hazure.png" alt="" id="hazutwo">
+        <img src="hazure.png" alt="" id="hazuthree">
+        <img src="hazure.png" alt="" id="hazufour">
+        <img src="suketto.png" alt="" id="suke">
+        <div id="waku"></div>
+        <input type="button" id="sb" onclick="start()">
+        <input type="button" id="stb" onclick="StopButtonPush()">
+        <script src="main.js"></script>
+    </body>
+</html>

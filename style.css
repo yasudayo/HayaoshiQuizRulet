@@ -1,0 +1,73 @@
+#hazu {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+#handi {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 455px;
+}
+#hazutwo {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+#hazuthree {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 5px;
+}
+#hazufour {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 455px;
+}
+#suke {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    right: 5px;
+}
+#sb {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(0, 17, 255);
+    bottom: 2%;
+}
+#stb {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(0, 17, 255);
+    bottom: 2%;
+}
+#waku {
+    border-color: rgb(253, 60, 60);
+    border-style: solid;
+    border-width: 8px;
+    width: 300px;
+    height: 137px;
+    position: absolute;
+    background-color: transparent;
+    left: 5px;
+    
+}
